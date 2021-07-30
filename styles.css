@@ -3,11 +3,14 @@ body {
   color: #fff;
   font-family: 'Crimson Text', serif;
 }
-
+.main-img {
+  width: 100%;
+  max-width: 200px;
+}
 .main-title {
   text-transform: uppercase;
   letter-spacing: 0.8em;
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 1em;
   font-weight: 400;
 }
@@ -44,6 +47,7 @@ section {
   padding: 1em;
   text-decoration: none;
   transition: all 0.05s linear;
+  text-align: center;
 }
 
 .btn:hover {
@@ -51,4 +55,16 @@ section {
   border-color: #f7ca4e;
   background-color: #000;
   border-radius: 5px;
+}
+
+/* Media Query for mobile*/
+@media screen and (max-width: 335px) {
+  .main-img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+  }
+  .main-title {
+    text-align: center;
 }
