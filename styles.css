@@ -4,7 +4,8 @@ body {
   font-family: 'Crimson Text', serif;
 }
 .main-img {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
 }
 .main-title {
   text-transform: uppercase;
